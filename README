@@ -1,6 +1,5 @@
 Method for reading in columns of data separated by white space from a text file using C++.
 
-This is in the form of a function  set up to read columns of numbers in scientific notation, convert them to doubles,
-and then store them in a vector of vectors (defined from here on as Vec[All]).  The function returns
-vec[All].  Within the main function, the desired columns are stored in new vectors and vec[All] is
-deleted from memory.
+This is in the form of a function  set up to read columns of numbers in scientific notation, convert them to doubles, and then store them in a vector of vectors (defined from here on as Vec[All]).  The function returns vec[All], which in this case is a vector of vectors of doubles.  Within the main function, the desired columns are stored in new vectors and vec[All] is deleted from memory.
+
+Note that the data is read in line-by-line where each line is treated as a string.  The string is separated by whitespace and stored appropriately.  As such, any data type could be stored as long as the data structures are declared properly.
