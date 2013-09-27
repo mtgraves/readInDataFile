@@ -1,0 +1,6 @@
+Method for reading in columns of data separated by white space from a text file using C++.
+
+This is in the form of a function  set up to read columns of numbers in scientific notation, convert them to doubles,
+and then store them in a vector of vectors (defined from here on as Vec[All]).  The function returns
+vec[All].  Within the main function, the desired columns are stored in new vectors and vec[All] is
+deleted from memory.
